@@ -12,14 +12,14 @@
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
+        <!-- <div id="unity-logo"></div> -->
         <div id="unity-progress-bar-empty">
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <div id="unity-webgl-logo"></div>
+        <!-- <div id="unity-webgl-logo"></div> -->
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Flight</div>
       </div>
@@ -57,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/v0.0.1.loader.js";
+      var loaderUrl = buildUrl + "/v0.0.2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/v0.0.1.data",
-        frameworkUrl: buildUrl + "/v0.0.1.framework.js",
-        codeUrl: buildUrl + "/v0.0.1.wasm",
+        dataUrl: buildUrl + "/v0.0.2.data",
+        frameworkUrl: buildUrl + "/v0.0.2.framework.js",
+        codeUrl: buildUrl + "/v0.0.2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Flight",
@@ -119,7 +119,7 @@
       document.body.appendChild(script);
     </script>
     <div class="footer">
-      <p>Built by Alvan Caleb Arulandu (v0.0.1)</p>
+      <p>Built by Alvan Caleb Arulandu (v0.0.2)</p>
     </div>
   </body>
 </html>
